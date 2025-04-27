@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 39 27% 89%;    /* #EFE6DA */
+    --foreground: 0 0% 29%;      /* #4A4A4A */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 18%; /* #2D2D2D */
+    --popover: 39 27% 89%;
+    --popover-foreground: 0 0% 18%;
+    --primary: 108 9% 65%;       /* #A7B19A */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 219 25% 74%;    /* #AABBCD */
+    --secondary-foreground: 0 0% 18%;
+    --muted: 39 20% 95%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 39 27% 89%;
+    --accent-foreground: 0 0% 18%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 39 27% 85%;
+    --input: 39 27% 85%;
+    --ring: 108 9% 65%;
+    --radius: 0.75rem;
+  }
+ 
+  .dark {
+    --background: 0 0% 18%;
+    --foreground: 39 27% 89%;
+    --card: 0 0% 18%;
+    --card-foreground: 39 27% 89%;
+    --popover: 0 0% 18%;
+    --popover-foreground: 39 27% 89%;
+    --primary: 108 9% 65%;
+    --primary-foreground: 0 0% 18%;
+    --secondary: 219 25% 74%;
+    --secondary-foreground: 0 0% 18%;
+    --muted: 0 0% 25%;
+    --muted-foreground: 39 20% 75%;
+    --accent: 0 0% 25%;
+    --accent-foreground: 39 27% 89%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 39 27% 89%;
+    --border: 0 0% 25%;
+    --input: 0 0% 25%;
+    --ring: 108 9% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.title-font {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Custom styles for refined aesthetics */
+.hero-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgba(45, 45, 45, 0.7),
+    rgba(45, 45, 45, 0.5),
+    rgba(45, 45, 45, 0.7)
+  );
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
