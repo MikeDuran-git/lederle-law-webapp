@@ -47,6 +47,12 @@ export const lawyers: Lawyer[] = [
       'Mit fließenden Sprachkenntnissen in Französisch, Englisch, Spanisch und Italienisch betreut er internationale Mandate und vertritt Mandanten vor Gerichten in Deutschland sowie im europäischen Ausland.',
       'Seine Expertise erstreckt sich über die Schweiz, Belgien, Luxemburg, Österreich, Frankreich, Spanien und Tschechien, wo er als Verteidiger bei den jeweiligen Anwaltskammern registriert ist.'
     ],
+    education: [
+      'Studium der Rechtswissenschaften an der Albert-Ludwigs-Universität Freiburg',
+      '1. Juristisches Staatsexamen mit Schwerpunkt Arbeitsrecht (1984)',
+      '2. Juristisches Staatsexamen mit Schwerpunkt Arbeits- und Sozialrecht (1988)',
+      'Fachanwaltsausbildung Strafrecht (2000)'
+    ],
     careerPath: [
       'Studium der Rechtswissenschaften',
       '1. Juristisches Staatsexamen mit Schwerpunkt Arbeitsrecht (1984)',
