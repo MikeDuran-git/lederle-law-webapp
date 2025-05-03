@@ -84,7 +84,7 @@ export const lawyers: Lawyer[] = [
   {
     name: 'Gabriele Braun',
     slug: 'gabriele-braun',
-    role: 'Partnerin',
+    role: 'angestellte Anwältin',
     image: '/images/gabriele-braun.jpg',
     description: 'Rechtsanwältin mit Expertise im internationalen Recht und grenzüberschreitenden Rechtsfragen.',
     titles: [
