@@ -26,11 +26,11 @@ export function FloatingContact() {
         <div className="group relative flex items-center">
           <div className="absolute right-full mr-2 hidden group-hover:block">
             <div className="bg-primary text-white px-4 py-2 rounded-lg whitespace-nowrap">
-              <p className="font-semibold">+49 (0) 761 - 217 729 39</p>
+              <p className="font-semibold">+49 (0) 7851 8001</p>
             </div>
           </div>
           <Link 
-            href="tel:+4976121772939"
+            href="tel:+4978518001"
             className="bg-primary hover:bg-primary/90 text-white p-3 rounded-l-lg transition-all duration-300 flex items-center justify-center"
           >
             <Phone className="h-6 w-6" />
