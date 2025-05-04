@@ -11,7 +11,7 @@ export function FloatingContact() {
         <div className="group relative flex items-center">
           <div className="absolute right-full mr-2 hidden group-hover:block">
             <div className="bg-red-600 text-white px-4 py-2 rounded-lg whitespace-nowrap">
-              <p className="font-semibold">Notfallnummer: +49 (0) 171 - 301 8002</p>
+              <p className="font-semibold">Notfallnummer: +49 171 301 8002</p>
             </div>
           </div>
           <Link 
@@ -26,7 +26,7 @@ export function FloatingContact() {
         <div className="group relative flex items-center">
           <div className="absolute right-full mr-2 hidden group-hover:block">
             <div className="bg-primary text-white px-4 py-2 rounded-lg whitespace-nowrap">
-              <p className="font-semibold">+49 (0) 7851 8001</p>
+              <p className="font-semibold">+49 7851 8001</p>
             </div>
           </div>
           <Link 
